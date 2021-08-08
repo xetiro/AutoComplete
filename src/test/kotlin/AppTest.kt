@@ -1,7 +1,7 @@
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class TestClient {
+class AppTest {
     @Test
     fun testGreet() {
         assertEquals("world", greet())
