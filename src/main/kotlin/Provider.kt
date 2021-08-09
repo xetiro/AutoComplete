@@ -1,6 +1,8 @@
-object TextCorpus {
+object Provider {
 
-    fun extractWords(): List<String> {
+    fun provideTrie(): Trie = TrieImpl()
+
+    fun provideWords(): List<String> {
         val words = content.split("\\s+".toRegex()).map { word ->
             word.replace("""^[,\.]|[,\.]$""".toRegex(), "")
         }

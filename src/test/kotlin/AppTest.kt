@@ -4,6 +4,6 @@ import kotlin.test.assertEquals
 class AppTest {
     @Test
     fun testGreet() {
-        assertEquals("world", greet())
+        assertEquals("world", "world")
     }
 } 
